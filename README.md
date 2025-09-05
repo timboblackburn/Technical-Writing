@@ -8,7 +8,6 @@ It demonstrates my ability to **explain complex technology clearly**, whether th
 ## 📌 Contents
 
 - [Cisco Meraki Go Documentation (Original Author)](#cisco-meraki-go-documentation)
-- [Python Sample Project – Daily Inspiration CLI](#python-sample-project--daily-inspiration-cli)
 - [Additional Writing Samples](#additional-writing-samples)
 - [About Me](#about-me)
 
@@ -30,16 +29,24 @@ These resources have since been edited and updated by others, but the **initial 
 
 ---
 
-## 🐍 Python Sample Project – Daily Inspiration CLI
+## ✍️ Additional Writing Samples
 
-A small but creative project showing both **development skills** and **technical documentation**.  
+Coming soon:  
+- A “Getting Started Guide” for a security/identity-focused demo tool.  
+- A mock API Reference document (to showcase docs-as-code style).  
+- A troubleshooting flow for a sample SaaS deployment.
 
-**What it does:**  
-- Fetches a random inspirational quote from a public API.  
-- Displays it in a simple command-line interface with date/time.  
+---
 
-**Repo Folder:** [`/Python-Sample-Tool`](./Python-Sample-Tool)  
-- `inspire.py` – Python script  
-- `docs/UserGuide.md` – Full getting started guide (installation, usage, customization)  
+## 👤 About Me
 
-Example Output:
+I’m a **Solutions Engineer and Technical Communicator** with a background in security, SaaS, and enterprise networking.  
+I specialize in making technology approachable through **clear documentation, training content, and product storytelling**.  
+
+- 📍 Based in Chicago, IL (U.S. Citizen, remote and nomad)  
+- 💼 Experience: Cisco Systems, Fortinet, Meraki  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/timothyjblackburn)  
+
+---
+
+⭐️ *If you’re reviewing this portfolio, I’d be glad to walk you through the content*
