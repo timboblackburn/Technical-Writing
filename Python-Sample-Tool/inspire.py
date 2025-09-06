@@ -10,42 +10,19 @@ FALLBACK_QUOTES = [
 ]
 
 def get_quote():
-    """Fetch a random inspirational quote from API or fallback list."""
+    """Fetch a random inspirational quote from ZenQuotes API or fallback list."""
     try:
-        response = requests.get("https://api.quotable.io/random", timeout=5)
+        response = requests.get("https://zenquotes.io/api/random", timeout=5)
         if response.status_code == 200:
             data = response.json()
-            return f"“{data['content']}” — {data['author']}"
+            return f"“{data[0]['q']}” — {data[0]['a']}"
     except Exception:
         return random.choice(FALLBACK_QUOTES)
 
 if __name__ == "__main__":
     print("="*50)
-    print("💡 Daily Inspiration CLI 💡")
+    print("💡 Inspirational Quotes 💡")
     print(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("="*50)
     print(get_quote())
     print("="*50)
-import requests
-from datetime import datetime
-
-def get_quote():
-    """Fetch a random inspirational quote from quotable.io API."""
-    try:
-        response = requests.get("https://api.quotable.io/random", timeout=5)
-        if response.status_code == 200:
-            data = response.json()
-            return f"“{data['content']}” — {data['author']}"
-        else:
-            return "Error: Could not fetch quote."
-    except Exception as e:
-        return f"Exception: {e}"
-
-if __name__ == "__main__":
-    print("="*50)
-    print("💡 Daily Inspiration CLI 💡")
-    print(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print("="*50)
-    print(get_quote())
-    print("="*50)
-
