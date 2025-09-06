@@ -1,24 +1,25 @@
-# 🖊️ Technical Writing Portfolio – Tim Blackburn
+#  Technical Writing Portfolio – Tim Blackburn
 
 Welcome! This repository showcases my **technical writing and communication work**, blending real-world enterprise documentation with independent projects and creative technical guides.  
 It demonstrates my ability to **explain complex technology clearly**, whether through official product documentation, internal playbooks, or small development projects.
 
 ---
 
-## 📌 Contents
+##  Contents
 
-- [Cisco Meraki Go Documentation (Original Author)](#cisco-meraki-go-documentation)
-- [Additional Writing Samples](#additional-writing-samples)
-- [About Me](#about-me)
+- Cisco Meraki Go Documentation (Original Author)
+- Daily Inspiration CLI (Python Sample Project)
+- Additional Writing Samples
+- About Me
 
 ---
 
-## 🚀 Cisco Meraki Go Documentation
+##  Cisco Meraki Go Documentation
 
 I was the **original author** of several published Cisco Meraki Go knowledge base articles.  
 These resources have since been edited and updated by others, but the **initial structure, content, and flow** originated from my work.  
 
-**Published Work (Meraki Official Site):**
+**Published Work (Cisco Meraki Official Site):**
 - [Configuring VLANs in Meraki Go](https://documentation.meraki.com/Go/Features/Configuring_VLANs_in_Meraki_Go)  
 - [Local Network Addressing](https://documentation.meraki.com/Go/Features/Meraki_Go_-_Local_Network_Addressing)  
 - [Troubleshooting Tools](https://documentation.meraki.com/Go/Meraki_Go_-_Support/Meraki_Go_-_Troubleshooting_Tools)  
@@ -29,7 +30,20 @@ These resources have since been edited and updated by others, but the **initial 
 
 ---
 
-## ✍️ Additional Writing Samples
+## Daily Inspiration CLI (Python Project)
+This project is a lightweight command-line tool that fetches random inspirational quotes from the ZenQuotes API, with a fallback list for offline use.  
+
+It demonstrates:
+- API integration and error handling
+- Clean CLI output with date/time
+- Clear end-user and developer documentation
+
+📂 See the project here: [Python Project Folder](Python-Sample-Tool)  
+📄 Documentation: [User Guide](Python-Sample-Tool/docs/UserGuide.md) | [Developer Notes](Python-Sample-Tool/docs/DeveloperNotes.md)
+
+---
+
+## Additional Writing Samples
 
 Coming soon:  
 - A “Getting Started Guide” for a security/identity-focused demo tool.  
@@ -38,15 +52,15 @@ Coming soon:
 
 ---
 
-## 👤 About Me
+## About Me
 
 I’m a **Solutions Engineer and Technical Communicator** with a background in security, SaaS, and enterprise networking.  
 I specialize in making technology approachable through **clear documentation, training content, and product storytelling**.  
 
-- 📍 Based in Chicago, IL (U.S. Citizen, remote and nomad)  
-- 💼 Experience: Cisco Systems, Fortinet, Meraki  
-- 🔗 [LinkedIn](https://www.linkedin.com/in/timothyjblackburn)  
+-  Based in Chicago, IL (U.S. Citizen, remote and nomad)  
+-  Experience: Cisco Systems, Fortinet, Meraki  
+-  [LinkedIn](https://www.linkedin.com/in/timothyjblackburn)  
 
 ---
 
-⭐️ *If you’re reviewing this portfolio, I’d be glad to walk you through the content*
+ *If you’re reviewing this portfolio, I’d be glad to walk you through the content*
