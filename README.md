@@ -38,8 +38,25 @@ It demonstrates:
 - Clean CLI output with date/time
 - Clear end-user and developer documentation
 
-📂 See the project here: [Python Project Folder](Python-Sample-Tool)  
-📄 Documentation: [User Guide](Python-Sample-Tool/docs/UserGuide.md) | [Developer Notes](Python-Sample-Tool/docs/DeveloperNotes.md)
+---
+
+## Inspirational CLI Project
+
+This is a **Python-based command-line tool** that fetches inspirational quotes from the ZenQuotes API (with a fallback list for offline use).  
+
+- Written in **Python** (requests, datetime, random)  
+- Includes a **Jupyter Notebook tutorial** explaining every step (great for teaching beginners)  
+- Example of **docs-as-code**: the tutorial doubles as documentation and training material  
+
+### Features
+- Fetches a live quote + author from an API  
+- Falls back to stored quotes if offline  
+- Prints with formatted headers and timestamps  
+- Tutorial notebook demonstrates step-by-step code, explanations, and exercises  
+
+ [View the Jupyter Notebook Tutorial](Inspirational-Project-CLI-Tutorial.ipynb)  
+ See the project here: [Python Project Folder](Python-Sample-Tool)  
+ Documentation: [User Guide](Python-Sample-Tool/docs/UserGuide.md) | [Developer Notes](Python-Sample-Tool/docs/DeveloperNotes.md)
 
 ---
 
